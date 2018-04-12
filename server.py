@@ -2,7 +2,8 @@ from bottle import get, route, run, template, view, static_file
 
 @get('/')
 def default():
-    return "hello world"
+    # return "hello world"
+    return template('hw1')
 
 @get('/index')
 def index():
